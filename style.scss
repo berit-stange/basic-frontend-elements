@@ -71,20 +71,37 @@ body,
 
 #arrow-left {
     border-width: 30px 40px 30px 0;
-    border-color: transparent $accent-color transparent transparent;
+    border-color: transparent $base-color transparent transparent;
     left: 0;
     margin-left: 30px;
+
+    &:hover {
+        border-color: transparent $accent-color transparent transparent;
+    }
 }
 
 #arrow-right {
     border-width: 30px 0 30px 40px;
-    border-color: transparent transparent transparent $accent-color;
+    border-color: transparent transparent transparent $base-color;
     right: 0;
     margin-right: 30px;
+
+    &:hover{
+        border-color: transparent transparent transparent $accent-color;
+    }
 }
 
 .description {
     background-color: $dark-color;
     color: $accent-color;
     padding: 10px;
+
+    a {
+        color: $base-color;
+        font-style: italic;
+
+        &:hover{
+            color: $accent-color; 
+        }
+    }
 }

@@ -73,21 +73,38 @@ body,
 
 #arrow-left {
   border-width: 30px 40px 30px 0;
-  border-color: transparent #dacc56 transparent transparent;
+  border-color: transparent #F4F3F1 transparent transparent;
   left: 0;
   margin-left: 30px;
 }
 
+#arrow-left:hover {
+  border-color: transparent #dacc56 transparent transparent;
+}
+
 #arrow-right {
   border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #dacc56;
+  border-color: transparent transparent transparent #F4F3F1;
   right: 0;
   margin-right: 30px;
+}
+
+#arrow-right:hover {
+  border-color: transparent transparent transparent #dacc56;
 }
 
 .description {
   background-color: #4f6769;
   color: #dacc56;
   padding: 10px;
+}
+
+.description a {
+  color: #F4F3F1;
+  font-style: italic;
+}
+
+.description a:hover {
+  color: #dacc56;
 }
 /*# sourceMappingURL=style.css.map */
