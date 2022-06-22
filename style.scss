@@ -16,6 +16,11 @@ body,
     overflow-x: hidden;//no horizontal scroll bars
 }
 
+.slider-container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
 .wrap {
     position: relative;
     width: 80vw;
