@@ -7,6 +7,7 @@ let sliderImages = document.querySelectorAll(".slide"),
 function reset() {
     for (let i = 0; i < sliderImages.length; i++) {
         sliderImages[i].style.display = "none";
+        // sliderImages[i].classList.add("hide");
     }
 }
 
@@ -14,12 +15,14 @@ function reset() {
 function startSlide() {
     reset();
     sliderImages[0].style.display = "block";
+    // sliderImages[0].classList.add("show");
 }
 
 //show previous
 function slideLeft() {
     reset();
     sliderImages[current - 1].style.display = "block";
+    // sliderImages[current - 1].classList.add("show");
     current--; //decrease current by 1
 }
 
@@ -27,6 +30,7 @@ function slideLeft() {
 function slideRight() {
     reset();
     sliderImages[current + 1].style.display = "block";
+    // sliderImages[current + 1].classList.add("show");
     current++; //increase current by 1
 }
 
