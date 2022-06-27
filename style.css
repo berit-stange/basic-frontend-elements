@@ -29,15 +29,15 @@ body,
 }
 
 .slide1 {
-  background-image: url("/img/03-996769.jpg");
+  background-image: url("img/03-996769.jpg");
 }
 
 .slide2 {
-  background-image: url("/img/02-4f6769-60.jpg");
+  background-image: url("img/02-4f6769-60.jpg");
 }
 
 .slide3 {
-  background-image: url("/img/01-4f6769.jpg ");
+  background-image: url("img/01-4f6769.jpg ");
 }
 
 .slide-content {
