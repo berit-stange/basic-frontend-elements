@@ -9,13 +9,11 @@ body,
 }
 
 .slider-container {
-  width: 80vw;
-  width: 100%;
+  margin: 0 auto;
 }
 
 .wrap {
   position: relative;
-  width: 100%;
 }
 
 #slider {
