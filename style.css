@@ -72,6 +72,7 @@ body,
   width: 0;
   height: 0;
   border-style: solid;
+  z-index: 3000;
 }
 
 #arrow-left {
@@ -110,17 +111,5 @@ body,
 
 .description a:hover {
   color: #dacc56;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000;
 }
 /*# sourceMappingURL=style.css.map */
