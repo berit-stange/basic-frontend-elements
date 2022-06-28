@@ -1,7 +1,8 @@
 # Basic Frontend Elements
+This repo was made to practise Frontend Development 
 
 - Image-Slider (pure JS)
 
-next:
+Next:
 - Menu
 - Animations
