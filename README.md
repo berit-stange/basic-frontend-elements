@@ -1,4 +1,4 @@
-# basic-frontend-elements
+# Basic Frontend Elements
 
 Image-Slider (pure JS)
 
