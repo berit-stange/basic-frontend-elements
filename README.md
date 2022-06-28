@@ -8,3 +8,5 @@ Next:
 - Sidebar-Menu
 - Animations
 - Changing elements on click
+- Modals
+- Loading Spinner
