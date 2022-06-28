@@ -55,7 +55,8 @@ body,
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 80%;
+  width: 100%;
+  /* muss auf 100, damit die Schrift zentriert ist */
   height: 80vh;
 }
 
