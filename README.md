@@ -7,3 +7,4 @@ Next:
 - Header-Menu
 - Sidebar-Menu
 - Animations
+- Changing elements on click
