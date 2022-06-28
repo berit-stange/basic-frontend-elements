@@ -1,6 +1,6 @@
 # basic-frontend-elements
 
-##Image-Slider (pure JS)
+Image-Slider (pure JS)
 
-##next:
-###Menu
+next:
+Menu
