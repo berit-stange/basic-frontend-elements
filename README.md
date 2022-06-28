@@ -5,4 +5,5 @@ This repo was made to practise Frontend Development
 
 Next:
 - Header-Menu
+- Sidebar-Menu
 - Animations
