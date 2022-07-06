@@ -4,15 +4,17 @@
 $base-color: #F4F3F1;
 $dark-color: #4f6769;
 $accent-color: #dacc56;
-$font-sans: 'Montserrat', sans-serif;
-$font-serif: 'Roboto Slab',serif;
+$font-sans: 'Montserrat',
+sans-serif;
+$font-serif: 'Roboto Slab',
+serif;
 
-body, 
+body,
 .slide-content {
     margin: 0;
     padding: 0;
     font-family: $font-serif;
-    overflow-x: hidden;//no horizontal scroll bars
+    overflow-x: hidden; //no horizontal scroll bars
 }
 
 .slider-container {
@@ -41,15 +43,15 @@ body,
 }
 
 .slide1 {
-    background-image: url("img/03-996769.jpg");
+    background-image: url("/img/03-996769.jpg");
 }
 
 .slide2 {
-    background-image: url("img/02-4f6769-60.jpg");
+    background-image: url("/img/02-4f6769-60.jpg");
 }
 
 .slide3 {
-    background-image: url("img/01-4f6769.jpg ");
+    background-image: url("/img/01-4f6769.jpg ");
 }
 
 .slide-content {
@@ -58,7 +60,8 @@ body,
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%; /* muss auf 100, damit die Schrift zentriert ist */
+    width: 100%;
+    /* muss auf 100, damit die Schrift zentriert ist */
     height: 80vh;
 }
 
@@ -95,7 +98,7 @@ body,
     right: 0;
     margin-right: 30px;
 
-    &:hover{
+    &:hover {
         border-color: transparent transparent transparent $accent-color;
     }
 }
@@ -110,8 +113,8 @@ body,
         color: $base-color;
         font-style: italic;
 
-        &:hover{
-            color: $accent-color; 
+        &:hover {
+            color: $accent-color;
         }
     }
 }
