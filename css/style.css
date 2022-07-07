@@ -1,116 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
-body,
-.slide-content {
+* {
   margin: 0;
-  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #dacc56;
+  color: #4f6769;
   font-family: "Roboto Slab", serif;
-  overflow-x: hidden;
-}
-
-.slider-container {
-  width: 80vw;
-  margin: 0 auto;
-}
-
-.wrap {
-  position: relative;
-  margin: 50px auto;
-}
-
-#slider {
-  position: relative;
-}
-
-.slide {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.slide1 {
-  background-image: url("/img/03-996769.jpg");
-}
-
-.slide2 {
-  background-image: url("/img/02-4f6769-60.jpg");
-}
-
-.slide3 {
-  background-image: url("/img/01-4f6769.jpg ");
-}
-
-.slide-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  width: 100%;
-  /* muss auf 100, damit die Schrift zentriert ist */
-  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.slide-content span {
-  font-size: 5rem;
-  color: #F4F3F1;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.arrow {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  z-index: 3000;
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#arrow-left {
-  border-width: 30px 40px 30px 0;
-  border-color: transparent #dacc56 transparent transparent;
-  left: 0;
-  margin-left: 30px;
+a {
+  display: inline-block;
+  background-color: #F4F3F1;
+  text-decoration: none;
+  margin: 0.5em;
+  padding: 1em;
 }
-
-#arrow-left:hover {
-  border-color: transparent #dacc56 transparent transparent;
+a:visited {
+  color: #4f6769;
 }
-
-#arrow-right {
-  border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #dacc56;
-  right: 0;
-  margin-right: 30px;
-}
-
-#arrow-right:hover {
-  border-color: transparent transparent transparent #dacc56;
-}
-
-.description {
+a:hover {
   background-color: #4f6769;
-  color: #dacc56;
-  padding: 10px;
-  position: relative;
-}
-
-.description a {
   color: #F4F3F1;
-  font-style: italic;
 }
 
-.description a:hover {
-  color: #dacc56;
-}
-/*# sourceMappingURL=style.css.map */
+p {
+  max-width: 300px;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */
