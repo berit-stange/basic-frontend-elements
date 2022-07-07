@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+
+
+$color-1: #F4F3F1;
+$color-2: #4f6769;
+$color-3: #dacc56;
+$font-sans: 'Montserrat',
+sans-serif;
+$font-serif: 'Roboto Slab',
+serif;
+
+
+//data attribute selector
+[data-theme="dark"] {
+
+    background-color: $color-2;
+    color: $color-3;
+
+    button {
+        background-color: $color-3;
+        color: $color-1;
+
+        &:hover {
+            background-color: $color-1;
+            color: $color-2;
+        }
+    }
+
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: $color-3;
+    color: $color-2;
+    font-family: $font-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; // braucht Höhe um zu greifen!
+    align-items: center;
+}
+
+// h1 {
+//     color: $color-2;
+// }
+
+p {
+    // color: $color-2;
+    padding: 2em;
+    width: 200px;
+}
+
+button {
+    background-color: $color-1;
+    color: $color-2;
+    border: none;
+    border-radius: 10px;
+    font-family: $font-sans;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 20px;
+
+    &:hover {
+        background-color: $color-2;
+        color: $color-1;
+    }
+}

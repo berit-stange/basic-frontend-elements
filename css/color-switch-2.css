@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+[data-theme=dark] {
+  background-color: #4f6769;
+  color: #dacc56;
+}
+[data-theme=dark] button {
+  background-color: #dacc56;
+  color: #F4F3F1;
+}
+[data-theme=dark] button:hover {
+  background-color: #F4F3F1;
+  color: #4f6769;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #dacc56;
+  color: #4f6769;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  padding: 2em;
+  width: 200px;
+}
+
+button {
+  background-color: #F4F3F1;
+  color: #4f6769;
+  border: none;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 20px;
+}
+button:hover {
+  background-color: #4f6769;
+  color: #F4F3F1;
+}/*# sourceMappingURL=color-switch-2.css.map */
