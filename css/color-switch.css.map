@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,4FAAI;AACZ,OAAO,CAAC,iGAAI",
-    "sources": [
-        "color-switch.scss"
-    ],
-    "names": [],
-    "file": "color-switch.css"
-}

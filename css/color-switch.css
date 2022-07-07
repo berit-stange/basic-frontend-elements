@@ -1,3 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+
+:root {
+  --bg: #dacc56;
+  --btn: #4f6769;
+  --text: #F4F3F1;
+}
+
+[data-theme="dark"] {
+  --bg: #4f6769;
+  --btn: #dacc56;
+  --text: #F4F3F1;
+}
+
+* {
+  margin: 0;
+}
+
+div {
+  margin: 0;
+  height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Roboto Slab", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+p {
+  padding: 20px;
+  max-width: 200px;
+}
+
+button {
+  background-color: var(--btn);
+  color: var(--text);
+  border: none;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: var(--text);
+  color: var(--btn);
+}
+
 /*# sourceMappingURL=color-switch.css.map */
