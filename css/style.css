@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+
 * {
   margin: 0;
 }
@@ -30,15 +31,18 @@ body {
 }
 
 a {
-  display: inline-block;
   background-color: #F4F3F1;
+  color: #4f6769;
+  display: inline-block;
   text-decoration: none;
   margin: 0.5em;
   padding: 1em;
 }
+
 a:visited {
   color: #4f6769;
 }
+
 a:hover {
   background-color: #4f6769;
   color: #F4F3F1;
@@ -47,4 +51,6 @@ a:hover {
 p {
   max-width: 300px;
   padding: 20px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
