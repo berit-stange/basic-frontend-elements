@@ -17,17 +17,6 @@
   margin: 0;
 }
 
-body {
-  height: 100vh;
-  background-color: #dacc56;
-  color: #4f6769;
-  font-family: "Roboto Slab", serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 p {
   padding: 2em;
   width: 350px;

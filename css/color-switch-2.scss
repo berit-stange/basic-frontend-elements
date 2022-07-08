@@ -10,7 +10,6 @@ sans-serif;
 $font-serif: 'Roboto Slab',
 serif;
 
-
 //data attribute selector
 [data-theme="dark"] {
 
@@ -32,24 +31,18 @@ serif;
 * {
     margin: 0;
 }
-
-body {
-    height: 100vh;
-    background-color: $color-3;
-    color: $color-2;
-    font-family: $font-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; // braucht Höhe um zu greifen!
-    align-items: center;
-}
-
-// h1 {
+// body {
+//     // height: 100vh;
+//     background-color: $color-3;
 //     color: $color-2;
+//     font-family: $font-serif;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center; // braucht Höhe um zu greifen!
+//     align-items: center;
 // }
 
 p {
-    // color: $color-2;
     padding: 2em;
     width: 350px;
 }

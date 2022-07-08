@@ -19,12 +19,12 @@ body {
 }
 
 // .container {
-    //     height: 100vh;
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     justify-content: center;
-    // }
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+// }
 
 h1 {
     color: $color-2;
@@ -61,13 +61,30 @@ button {
     background-color: $color-1;
     color: $color-3;
 
+    // header {
+    //     border-bottom: 2px solid $color-2;
+    // }
+
     a {
-        background-color: $color-2;
-        color: $color-1;
+        background-color: $color-1;
+        color: $color-2;
+        border: 1px solid $color-2;
+        border-bottom: 2px solid $color-2;
+
+        &:hover {
+            background-color: $color-3;
+            color: $color-1;
+            border: 2px solid $color-3;
+        }
     }
 
     button {
         background-color: $color-2;
         color: $color-1;
+
+        &:hover {
+            background-color: $color-3;
+            color: $color-1;
+        }
     }
 }

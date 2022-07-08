@@ -42,10 +42,21 @@ button:hover {
   color: #dacc56;
 }
 .visible a {
-  background-color: #4f6769;
+  background-color: #F4F3F1;
+  color: #4f6769;
+  border: 1px solid #4f6769;
+  border-bottom: 2px solid #4f6769;
+}
+.visible a:hover {
+  background-color: #dacc56;
   color: #F4F3F1;
+  border: 2px solid #dacc56;
 }
 .visible button {
   background-color: #4f6769;
+  color: #F4F3F1;
+}
+.visible button:hover {
+  background-color: #dacc56;
   color: #F4F3F1;
 }/*# sourceMappingURL=color-switch-3.css.map */

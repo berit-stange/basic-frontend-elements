@@ -9,17 +9,6 @@ sans-serif;
 $font-serif: 'Roboto Slab',
 serif;
 
-body {
-    // height: 100vh;
-    background-color: $base-color;
-    // color: $color-2;
-    // font-family: $font-serif;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center; // braucht Höhe um zu greifen!
-    // align-items: center;
-}
-
 a {
     background-color: $accent-color;
 }
@@ -45,7 +34,7 @@ a {
     // width: 80vw;
     // width: 100%;
     // height: 60vh;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 #slider {
@@ -59,7 +48,7 @@ a {
 }
 
 .slide1 {
-    background-image: url("/img/03-996769.jpg");
+    background-image: url("/img/farben4.jpg");
 }
 
 .slide2 {
@@ -76,9 +65,8 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
-    /* muss auf 100, damit die Schrift zentriert ist */
-    height: 50vh;
+    width: 100%; //muss auf 100, damit die Schrift zentriert ist 
+    height: 40vh;
 }
 
 .slide-content span {
@@ -126,8 +114,8 @@ a {
     position: relative;
 
     a {
-        background-color: $base-color;
-        color: $accent-color;
+        background-color: $accent-color;
+        color: $dark-color;
         font-style: italic;
         padding: 0;
 

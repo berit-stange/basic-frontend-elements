@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
-body {
-  background-color: #F4F3F1;
-}
-
 a {
   background-color: #dacc56;
 }
@@ -22,7 +18,7 @@ a {
 
 .wrap {
   position: relative;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 
 #slider {
@@ -36,7 +32,7 @@ a {
 }
 
 .slide1 {
-  background-image: url("/img/03-996769.jpg");
+  background-image: url("/img/farben4.jpg");
 }
 
 .slide2 {
@@ -54,8 +50,7 @@ a {
   align-items: center;
   text-align: center;
   width: 100%;
-  /* muss auf 100, damit die Schrift zentriert ist */
-  height: 50vh;
+  height: 40vh;
 }
 
 .slide-content span {
@@ -100,8 +95,8 @@ a {
   position: relative;
 }
 .description a {
-  background-color: #F4F3F1;
-  color: #dacc56;
+  background-color: #dacc56;
+  color: #4f6769;
   font-style: italic;
   padding: 0;
 }

@@ -2,16 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
+  height: 100vh;
   background-color: #dacc56;
   color: #4f6769;
   font-family: "Roboto Slab", serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
@@ -19,36 +17,45 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 60vh;
+}
+
+header {
+  position: relative;
+  top: 0;
 }
 
 .links-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  position: absolute;
-  top: 0;
 }
-
-a {
-  background-color: #F4F3F1;
+.links-container a {
   color: #4f6769;
-  display: inline-block;
+  border-left: 2px solid #F4F3F1;
+  border-bottom: 2px solid #F4F3F1;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   text-decoration: none;
-  border-radius: 10px;
-  margin: 0.5em;
   padding: 1em;
+  width: 20vw;
+  height: 20vw;
 }
-a:visited {
+.links-container a:last-child {
+  border-right: 2px solid #F4F3F1;
+}
+.links-container a:visited {
   color: #4f6769;
 }
-a:hover {
-  background-color: #4f6769;
-  color: #F4F3F1;
+.links-container a:hover {
+  background-color: #F4F3F1;
+  color: #dacc56;
 }
 
 p {
   line-height: 1.5;
-  max-width: 300px;
-  padding: 20px;
+  max-width: 350px;
 }/*# sourceMappingURL=style.css.map */
