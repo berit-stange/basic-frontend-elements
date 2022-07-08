@@ -14,7 +14,7 @@ serif;
 }
 
 body {
-    height: 100vh;
+    // height: 100vh;
     background-color: $color-3;
     color: $color-2;
     font-family: $font-serif;
@@ -36,12 +36,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
 }
 
 a {
     display: inline-block;
     background-color: $color-1;
     text-decoration: none;
+    border-radius: 10px;
     margin: .5em;
     padding: 1em;
 
@@ -56,6 +59,7 @@ a {
 }
 
 p {
+    line-height: 1.5;
     max-width: 300px;
     padding: 20px
 }
