@@ -41,8 +41,9 @@ body {
 }
 
 a {
-    display: inline-block;
     background-color: $color-1;
+    color: $color-2;
+    display: inline-block;
     text-decoration: none;
     border-radius: 10px;
     margin: .5em;
