@@ -4,6 +4,15 @@
   background-color: #4f6769;
   color: #dacc56;
 }
+[data-theme=dark] a {
+  color: #F4F3F1;
+}
+[data-theme=dark] a:visited {
+  color: #F4F3F1;
+}
+[data-theme=dark] a:hover {
+  color: #4f6769;
+}
 [data-theme=dark] button {
   background-color: #dacc56;
   color: #F4F3F1;

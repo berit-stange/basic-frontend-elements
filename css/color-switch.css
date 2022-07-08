@@ -17,30 +17,19 @@
   margin: 0;
 }
 
-/* body {
-  margin: 0;
-  height: 100vh;
+body {
   background-color: var(--bg);
-  color: var(--text);
-  font-family: "Roboto Slab", serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-} */
+}
 
+h1,
 p {
   padding: 20px;
   max-width: 350px;
+  color: var(--text);
+}
+
+.links-container a:visited {
+  color: var(--btn);
 }
 
 button {
