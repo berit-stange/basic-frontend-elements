@@ -5,52 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/image-slider.css">
     <title>Document</title>
 </head>
 
 <body>
-    <!-- image slider from Travery Media tutorial https://youtu.be/7ZO2RTMNSAY -->
-    <div class="slider-container">
+    <header class="links-container">
+        <a href="index.html">Home</a>
+        <a href="image-slider.html">Image Slider</a>
+        <a href="color-switch.html">Color Switch #1</a>
+        <a href="color-switch-2.html">Color Switch #2</a>
+        <a href="color-switch-3.html">Color Switch #3</a>
+    </header>
 
-        <div class="wrap">
+    <div class="container">
+        <!-- image slider from Travery Media tutorial https://youtu.be/7ZO2RTMNSAY -->
+        <div class="slider-container">
 
-            <div id="arrow-left" class="arrow"></div>
+            <div class="wrap">
 
-            <div id="slider">
+                <div id="arrow-left" class="arrow"></div>
 
-                <div class="slide slide1">
-                    <div class="slide-content">
-                        <span>One</span>
+                <div id="slider">
+
+                    <div class="slide slide1">
+                        <div class="slide-content">
+                            <span>One</span>
+                        </div>
                     </div>
+
+                    <div class="slide slide2">
+                        <div class="slide-content">
+                            <span>Two</span>
+                        </div>
+                    </div>
+
+                    <div class="slide slide3">
+                        <div class="slide-content">
+                            <span>Three</span>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="slide slide2">
-                    <div class="slide-content">
-                        <span>Two</span>
-                    </div>
-                </div>
-
-                <div class="slide slide3">
-                    <div class="slide-content">
-                        <span>Three</span>
-                    </div>
-                </div>
+                <div id="arrow-right" class="arrow"></div>
 
             </div>
 
-            <div id="arrow-right" class="arrow"></div>
+            <div class="description">
+                <p>Image slider from: <a href="https://youtu.be/7ZO2RTMNSAY">Traversy Media tutorial on
+                        YouTube</a></p>
+                <p>Changes: <br>
+                    - width and height limited instead of fully covered page <br>
+                    - added description <br>
+                    - next: transition
+                </p>
+            </div>
 
-        </div>
-
-        <div class="description">
-            <p>Image slider from <a href="https://youtu.be/7ZO2RTMNSAY">Traversy Media tutorial on
-                    YouTube</a></p>
-            <p>Changes: <br>
-                - width and height limited instead of fully covered page <br>
-                - added description <br>
-                - next: transition
-            </p>
         </div>
 
     </div>

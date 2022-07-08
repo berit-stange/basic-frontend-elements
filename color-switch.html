@@ -5,16 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color-switch.css">
     <title>Color Switch</title>
 </head>
 
 <body>
-    <div>
-        <h1>Color Switch</h1>
-        <p>Tutorial from: <br>
-            Instagram @david.webdev <br>
-            https://www.instagram.com/p/CdvF72HDHr1/ </p>
+    <header class="links-container">
+        <a href="index.html">Home</a>
+        <a href="image-slider.html">Image Slider</a>
+        <a href="color-switch.html">Color Switch #1</a>
+        <a href="color-switch-2.html">Color Switch #2</a>
+        <a href="color-switch-3.html">Color Switch #3</a>
+    </header>
+
+
+    <div class="container">
+        <h1>Color Switch #1</h1>
+        <p>Tutorial from: Instagram @david.webdev <br>
+            https://www.instagram.com/p/CdvF72HDHr1/ <br>
+            <br>
+            This color switch uses the setAttribute function on clicking the button.
+            The attribute is also logged into the local storage so it is saved for
+            later use of the site.
+        </p>
         <button onclick="toggleTheme()">
             Toggle Theme
         </button>
