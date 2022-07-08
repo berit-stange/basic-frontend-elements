@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #dacc56;
+}
+
+h1 {
+  color: #4f6769;
+}
+
+p {
+  color: #4f6769;
+  padding: 2em;
+  width: 350px;
+}
+
+button {
+  background-color: #F4F3F1;
+  color: #4f6769;
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 50%;
+  font-family: "Roboto Slab", serif;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 20px;
+  padding: 20px;
+}
+button:hover {
+  background-color: #4f6769;
+  color: #F4F3F1;
+}
+
+.visible {
+  visibility: visible;
+  background-color: #F4F3F1;
+  color: #dacc56;
+}
+.visible a {
+  background-color: #4f6769;
+  color: #F4F3F1;
+}
+.visible button {
+  background-color: #4f6769;
+  color: #F4F3F1;
+}/*# sourceMappingURL=color-switch-3.css.map */
