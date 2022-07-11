@@ -2,55 +2,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
   background-color: #dacc56;
   color: #4f6769;
   font-family: "Roboto Slab", serif;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "A   B   C   D   E" "F   F   F   F   F";
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
+.box-1 {
+  grid-area: A;
 }
 
-header {
-  position: relative;
-  top: 0;
+.box-2 {
+  grid-area: B;
 }
 
-.links-container {
-  display: flex;
-  flex-direction: row;
+.box-3 {
+  grid-area: C;
 }
-.links-container a {
+
+.box-4 {
+  grid-area: D;
+}
+
+.box-5 {
+  grid-area: E;
+}
+
+.box-6 {
+  grid-area: F;
+  display: grid;
+  place-items: center;
+}
+
+a {
   color: #4f6769;
   border-left: 2px solid #F4F3F1;
   border-bottom: 2px solid #F4F3F1;
   font-size: 0.9em;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  text-decoration: none;
-  padding: 1em;
   width: 20vw;
   height: 20vw;
 }
-.links-container a:last-child {
+a:last-child {
   border-right: 2px solid #F4F3F1;
 }
-.links-container a:visited {
+a:visited {
   color: #4f6769;
 }
-.links-container a:hover {
+a:hover {
   background-color: #F4F3F1;
   color: #dacc56;
 }

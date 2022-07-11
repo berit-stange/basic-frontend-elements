@@ -11,72 +11,99 @@ serif;
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box; //padding and borders do not increase the width and height of elements
 }
 
 body {
-    height: 100vh;
-    // width: 100vw;
     background-color: $color-3;
     color: $color-2;
     font-family: $font-serif;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center; // braucht Höhe um zu greifen!
-    // align-items: center;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "A   B   C   D   E"
+        "F   F   F   F   F";
 }
 
-.container {
+// [class^="box-"] {
+//     display: grid;//     To place the letter at the center 
+//     place-items: center;
+// }
+
+.box-1 {
+    grid-area: A;
+}
+
+.box-2 {
+    grid-area: B;
+}
+
+.box-3 {
+    grid-area: C;
+}
+
+.box-4 {
+    grid-area: D;
+}
+
+.box-5 {
+    grid-area: E;
+}
+
+.box-6 {
+    grid-area: F;
+    display: grid;
+    place-items: center;
+}
+
+// header {
+//     max-height: 20vh;
+// }
+
+// .container {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center; //vertikal zentriert bei column + braucht Höhe um zu greifen!
+//     align-items: center; //horizontal zentriert bei column
+//     // height: 80vh;
+// }
+
+// .links-container {
+// display: flex;
+// flex-direction: row;
+
+a {
+    color: $color-2;
+    border-left: 2px solid $color-1;
+    border-bottom: 2px solid $color-1;
+    font-size: .9em;
     display: flex;
-    flex-direction: column;
-    justify-content: center; //vertikal zentriert bei column
-    align-items: center; //horizontal zentriert bei column
-    height: 60vh;
-    // vertical-align: middle;
-}
+    // flex-direction: row;
+    // justify-content: center; //horizontal zentriert bei row
+    // align-items: center; //vertikal zentriert bei row
+    text-align: center;
+    // text-decoration: none;
+    // padding: 1em;
+    // display: block;
+    width: 20vw;
+    height: 20vw;
 
-header {
-    // width: 50vw; //50vw bei 5 Links - dann zentriert, beii 100vw sind die Links links
-    //ohne width ist es auch zentrirt
-    // border-bottom: 2px solid $color-1;
-    position: relative;
-    top: 0;
-    // margin: 0 auto;
-}
+    &:last-child {
+        border-right: 2px solid $color-1;
+    }
 
-.links-container {
-    display: flex;
-    flex-direction: row;
-
-    a {
+    &:visited {
         color: $color-2;
-        border-left: 2px solid $color-1;
-        border-bottom: 2px solid $color-1;
-        font-size: .9em;
-        display: flex;
-        flex-direction: row;
-        justify-content: center; //horizontal zentriert bei row
-        align-items: center; //vertikal zentriert bei row
-        text-align: center;
-        text-decoration: none;
-        padding: 1em;
-        width: 20vw;
-        height: 20vw;
+    }
 
-        &:last-child {
-            border-right: 2px solid $color-1;
-        }
-
-        &:visited {
-            color: $color-2;
-        }
-
-        &:hover {
-            background-color: $color-1;
-            color: $color-3;
-        }
+    &:hover {
+        background-color: $color-1;
+        color: $color-3;
     }
 }
+
+// }
 
 p {
     line-height: 1.5;
