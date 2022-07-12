@@ -31,8 +31,8 @@ body {
     flex-direction: column;
     justify-content: center; //vertikal zentriert bei column
     align-items: center; //horizontal zentriert bei column
-    height: 60vh;
-    // vertical-align: middle;
+    height: 80vh;
+    vertical-align: middle;
 }
 
 header {
@@ -50,8 +50,8 @@ header {
 
     a {
         color: $color-2;
-        border-left: 2px solid $color-1;
-        border-bottom: 2px solid $color-1;
+        border-left: 2px solid $color-2;
+        border-bottom: 2px solid $color-2;
         font-size: .9em;
         display: flex;
         flex-direction: row;
@@ -72,7 +72,7 @@ header {
         }
 
         &:hover {
-            background-color: $color-1;
+            background-color: $color-2;
             color: $color-3;
         }
     }

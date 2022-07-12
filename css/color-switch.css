@@ -28,9 +28,9 @@ p {
   color: var(--text);
 }
 
-.links-container a:visited {
+/* .links-container a:visited {
   color: var(--btn);
-}
+} */
 
 button {
   background-color: var(--btn);

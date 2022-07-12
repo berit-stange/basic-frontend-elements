@@ -17,7 +17,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 80vh;
+  vertical-align: middle;
 }
 
 header {
@@ -31,8 +32,8 @@ header {
 }
 .links-container a {
   color: #4f6769;
-  border-left: 2px solid #F4F3F1;
-  border-bottom: 2px solid #F4F3F1;
+  border-left: 2px solid #4f6769;
+  border-bottom: 2px solid #4f6769;
   font-size: 0.9em;
   display: flex;
   flex-direction: row;
@@ -51,7 +52,7 @@ header {
   color: #4f6769;
 }
 .links-container a:hover {
-  background-color: #F4F3F1;
+  background-color: #4f6769;
   color: #dacc56;
 }
 
