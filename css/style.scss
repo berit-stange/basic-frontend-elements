@@ -27,31 +27,56 @@ body {
 }
 
 .container {
+    // wenn es ein flex container ist, brauche ich eine Höhe, 
+    // um den Inhalt vertika zu zentrieren.
+    // Da aber der Header sich an der Breite orientiert, kann ich für den container nicht vh angeben.
+    // Wie also lösen? Flexibel zentrieren
+
     display: flex;
     flex-direction: column;
     justify-content: center; //vertikal zentriert bei column
     align-items: center; //horizontal zentriert bei column
+
+    // flex-direction: column;
+    // justify-content: space-evenly;
+    // justify-self: center;
+    // align-items: center;
+
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
     height: 80vh;
-    vertical-align: middle;
+
+    // mit position positioniert, damit es keine scrollbar gibt
+    // Wenn aber der Inhalt mehr Umfang hat, sitzt alles zu weit unten
+    // position: relative;
+    // top: 35%;
+
+    // margin: auto 0;
+
+    // vertical-align: middle;
 }
 
 header {
-    // width: 50vw; //50vw bei 5 Links - dann zentriert, beii 100vw sind die Links links
-    //ohne width ist es auch zentrirt
+    // width: 50vw; //50vw bei 5 Links - dann zentriert, bei 100vw sind die Links links
+    // ohne width ist es auch zentrirt
     // border-bottom: 2px solid $color-1;
-    position: relative;
-    top: 0;
+    // position: relative;
+    // top: 0;
     // margin: 0 auto;
+    // height: 20vh;
+    border-bottom: 2px solid $color-2;
 }
 
 .links-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    // height: 20vh;
 
     a {
         color: $color-2;
         border-left: 2px solid $color-2;
-        border-bottom: 2px solid $color-2;
         font-size: .9em;
         display: flex;
         flex-direction: row;
@@ -63,8 +88,12 @@ header {
         width: 20vw;
         height: 20vw;
 
+        // aspect-ratio ist dann wieder abhängig von der Breite des Textes
+        // und die Höhe bleibt weil die Elemente in einer Reihe sind
+        // aspect-ratio: 1 / 1;
+
         &:last-child {
-            border-right: 2px solid $color-1;
+            border-right: 2px solid $color-2;
         }
 
         &:visited {
@@ -75,10 +104,22 @@ header {
             background-color: $color-2;
             color: $color-3;
         }
+
+        &:focus-visible {
+            outline: none;
+        }
     }
 }
 
 p {
     line-height: 1.5;
     max-width: 350px;
+}
+
+button {
+    cursor: pointer;
+
+    &:focus-visible {
+        outline: none;
+    }
 }
