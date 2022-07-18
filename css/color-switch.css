@@ -28,13 +28,23 @@ p {
   color: var(--text);
 }
 
-/* .links-container a:visited {
-  color: var(--btn);
-} */
+header {
+  border-bottom: 2px solid var(--text);
+}
+
+.links-container a,
+.links-container a:visited {
+  color: var(--text);
+  border-left: 2px solid var(--text);
+}
+
+.links-container a:last-child {
+  border-right: 2px solid var(--text);
+}
 
 button {
   background-color: var(--btn);
-  color: var(--text);
+  color: var(--bg);
   border: none;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
@@ -47,5 +57,3 @@ button:hover {
   background-color: var(--text);
   color: var(--btn);
 }
-
-/*# sourceMappingURL=color-switch.css.map */
