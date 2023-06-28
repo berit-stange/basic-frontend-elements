@@ -1,3 +1,9 @@
 .moon-top {
   margin-top: 10px;
+}
+
+.move-the-moon {
+  visibility: visible;
+  position: relative;
+  top: 50px;
 }/*# sourceMappingURL=collage.css.map */
